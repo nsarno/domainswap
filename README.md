@@ -2,7 +2,7 @@
 
 ## Summary
 
-Swap is a smart contract to allow escrow transactions without third-party.
+DomainSwap is a smart contract to allow escrow transactions without third-party.
 
 ## Contract Specifications
 
