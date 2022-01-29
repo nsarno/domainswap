@@ -23,6 +23,8 @@ contract DomainSwap is Ownable, ReentrancyGuard {
 
     // Let the owner/seller initiate the sale and pay the insurance
     function initiateSale(string memory _ownerEmail, string memory _domain, uint _price) public payable onlyOwner {
+        require(address(0) == buyer, "A sale is already in progress");
+
         ownerEmail = _ownerEmail;
         domain = _domain;
         price = _price;
