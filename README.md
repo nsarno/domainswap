@@ -2,7 +2,7 @@
 
 ## Summary
 
-DomainSwap is a smart contract to allow escrow transactions without third-party.
+DomainSwap is a smart contract to enable domain transfers via a decentralized escrow.
 
 ## Contract Specifications
 
